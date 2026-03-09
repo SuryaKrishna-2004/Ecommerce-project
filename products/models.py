@@ -2,7 +2,7 @@ from django.db import models
 
 # model for product
 
-class Product(models.Models):
+class Product(models.Model):
 
     LIVE=1
     DELETE=0
